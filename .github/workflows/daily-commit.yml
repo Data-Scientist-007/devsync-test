@@ -2,8 +2,8 @@ name: Daily Commit Workflow
 
 on:
   schedule:
-    - cron: '15 3 * * *'  # Runs daily at 8:45 AM IST
-
+    - cron: '15 3 * * *'  # Daily 8:45 AM IST
+  workflow_dispatch:
 jobs:
   commit-job:
     runs-on: ubuntu-latest
