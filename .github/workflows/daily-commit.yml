@@ -13,7 +13,7 @@ jobs:
 
       - name: Update file by 22f3001735@ds.study.iitm.ac.in
         run: |
-          echo "Updated on $(date)" >> daily-log.txt
+          echo "Updated on $(date)" > daily-log.txt
 
       - name: Commit and Push Changes
         run: |
